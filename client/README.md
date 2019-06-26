@@ -1,3 +1,17 @@
+PseudoCode of what is left for this project:
+
+From the back end perspective I need to create a controller that accesses my own personal API and saves books or does a POST route to MY API after they search a book and want to save it
+
+Those functions will be closely related to react-20 the books AJAX activity
+
+For my react side of the server we need to:
+
+Have a see all saved books... and a search books portion which is going to be my home page.  From there the DOM will pull from the GOOGLE BOOKS API a single book of what the user is looking for.  If they choose to SAVE the book it will go into their SAVED books view and that will just rerender.  I am still up in the air if I will make that a serperate page or if it can just be done all in a section underneath.  I have the See Saved Books View for if someone new entered the site they could look at all Saved books.
+
+The final last hurdle I am going to need to overcome is handling with the deployment of REACT.  I have been reading up on how it needs to undergo a run npm build before it can be deployed. But as this is going to be used in every project I do going forward having this aspect down and easily handled is important. 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
